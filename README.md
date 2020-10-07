@@ -8,6 +8,10 @@ as part of the MELITY project (ΜΕΛΙΤΥ, Κωδικός Έργου: Τ1ΕΔ�
 “Ερευνώ – Δημιουργώ – Καινοτομώ” του Επιχειρησιακού Προγράμματος ΕΠΑνΕΚ
 2014-2020 “Ανταγωνιστικότητα – Επιχειρηματικότητα – Καινοτομία”).
 
+![MELITY LOGO](doc/images/melity-logo-with-text.png?raw=true "MELITY Logo")
+![EPANEK_LOGO](doc/images/epanek-logo.png?raw=true "EPANEK logo")
+
+
 This is licensed as work in the public domain, for more details 
 see unlicense.txt
 
@@ -22,7 +26,7 @@ This implementation is verified against the data in:
 
 National Institute of Standards and Technology Special Publication 800-38A 2001 ED Appendix F: Example Vectors for Modes of Operation of the AES.
 
-## Masking implentation
+## Masking implementation
 This is an implementation of the boolean masking tecnique described in _Stefan Mangard, Elisabeth Oswald, Thomas Popp - Power Analysis Attacks Revealing the Secrets of Smart Cards (Advances in Information Security) (2007)_ (2)
 
 In our code we are using 10 masks:
@@ -38,9 +42,9 @@ static void InvCipherMasked(state_t *state, const uint8_t *RoundKey);
 ```
 
 ### Encryption
-![Encryption](doc/images/Encryption.png?raw=true "Masking implmentation for encryption")
+![Encryption](doc/images/Encryption.png?raw=true "Masking implementation for encryption")
 ### Decryption
-![Encryption](doc/images/Decryption.png?raw=true "Masking implmentation for decryption")
+![Encryption](doc/images/Decryption.png?raw=true "Masking implementation for decryption")
 
 ## References
 * Stefan Mangard, Elisabeth Oswald, Thomas Popp - Power Analysis Attacks Revealing the Secrets of Smart Cards (Advances in Information Security) (2007)
